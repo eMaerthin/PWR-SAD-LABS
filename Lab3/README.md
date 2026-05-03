@@ -11,24 +11,27 @@ Materiały są podzielone na część podstawową oraz osobne notebooki rozszerz
 - `notebooks/lab3-geopandas.ipynb` — krótki przykład wizualizacji geograficznej.
 
 ## Przygotowanie środowiska z użyciem `uv`
-W katalogu `Lab3` uruchom:
+- W katalogu `Lab3` uruchom:
 
-```bash
-uv sync
-```
+  ```bash
+  uv sync
+  ```
+- Notebook podstawowy:
 
-Notebook podstawowy:
+  ```bash
+  uv run jupyter lab notebooks/lab3_eda_clustering.ipynb
+  ```
+- Notebooki rozszerzające:
 
-```bash
-uv run jupyter lab notebooks/lab3_eda_clustering.ipynb
-```
+  ```bash
+  uv run jupyter lab notebooks/lab3-tsne-umap.ipynb
+  uv run jupyter lab notebooks/lab3-geopandas.ipynb
+  ```
+- Notebook z demonstracją UMAP (`lab3-umap.ipynb`) korzysta z dedykowanego środowiska zdefiniowanego w `umap_env`. Użyj skryptu `setup_umap.sh`, aby zsynchronizować i uruchomić notatnik:
 
-Notebooki rozszerzające:
-
-```bash
-uv run jupyter lab notebooks/lab3-tsne-umap.ipynb
-uv run jupyter lab notebooks/lab3-geopandas.ipynb
-```
+  ```bash
+  ./setup_umap.sh
+  ```
 
 ## Instalacja `uv`
 

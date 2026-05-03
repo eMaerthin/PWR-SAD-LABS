@@ -1,0 +1,18 @@
+[project]
+name = "lab3-umap"
+version = "0.1.0"
+description = "UMAP-only environment for Lab3"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "matplotlib>=3.9.0",
+    "numpy>=2.2.0",
+    "scikit-learn>=1.4.0,<1.5.0",
+    "seaborn>=0.13.0",
+    "umap-learn==0.5.7",
+    "numba==0.61.2",
+    "llvmlite==0.44.0",
+    "jupyterlab>=3.6.0",
+]
+
+[tool.uv]
+package = false
