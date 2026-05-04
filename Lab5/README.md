@@ -1,6 +1,6 @@
 # Temat: Weryfikacja hipotez
 
-Notebook podstawowy i rozszerzenie w Julia.
+Notebook podstawowy (w trakcie przygotowania rozszerzenie w Julia).
 
 Notebooki:
 - `notebooks/*.ipynb`
